@@ -1,0 +1,27 @@
+package springdemo;
+
+import java.util.List;
+
+
+
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
+public class Restaurent {
+	
+	public void greeting()
+	{
+		System.out.println("Welcome dear custome his is lifecycle demo" );
+	}
+	
+	public void init()
+	{
+		System.out.println("Restauren bean is going through init");
+	}
+	
+	@PreDestroy
+	public void destroy()
+	{
+		System.out.println("Bean will be destroyed now");
+	}
+}

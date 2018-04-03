@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/springjarfiles"/>
+	<classpathentry kind="lib" path="D:/R22/R 19/Apache tomcat 7.0.47/mohi/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/680854/workspace/Batch2/restful-demo/WebContent/WEB-INF/lib/hk2-api-2.5.0-b42.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
